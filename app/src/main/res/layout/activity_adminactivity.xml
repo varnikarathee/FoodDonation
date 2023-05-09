@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminactivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="333dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="52dp"
+        android:text="ADMIN  LOGIN"
+        android:textColor="@color/black"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="333dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="84dp"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:ems="10"
+        android:hint="ADMIN  NAME"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/editTextNumberPassword"
+        android:layout_width="333dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="PASSWORD"
+        android:inputType="numberPassword"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_baseline_security_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="133dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="40dp"
+        android:text="LOG IN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumberPassword" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="124dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="5dp"
+        android:text="forget password"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:layout_constraintVertical_bias="0.074" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

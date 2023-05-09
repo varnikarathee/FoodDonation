@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutdeveloperpage">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="       Developers"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginTop="25dp"
+        android:gravity="left"
+
+        android:textColor="@color/black"
+        android:text="   Yuvraj Singh"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        tools:layout_editor_absoluteX="3dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="254dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11">
+
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="238dp"
+            android:layout_height="90dp"
+            android:gravity="center"
+            android:text="BTECH CSE COLLEGE STUDENT ." />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="95dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:srcCompat="@drawable/downloadiiii" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="95dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:srcCompat="@drawable/downloadii" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="95dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView15"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:srcCompat="@drawable/download" />
+
+
+    <TextView
+        android:id="@+id/textView111"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginTop="24dp"
+        android:gravity="left"
+        android:text="   Varnika Rathee"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="254dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView111">
+
+        <TextView
+            android:id="@+id/textView121"
+            android:layout_width="238dp"
+            android:layout_height="90dp"
+            android:gravity="center"
+            android:text="BTECH CSE COLLEGE STUDENT " />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView114"
+        android:layout_width="95dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:srcCompat="@drawable/downloadiiii" />
+
+    <ImageView
+        android:id="@+id/imageView115"
+        android:layout_width="95dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:srcCompat="@drawable/downloadii" />
+
+    <ImageView
+        android:id="@+id/imageView116"
+        android:layout_width="95dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView15"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:srcCompat="@drawable/download" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="114dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ts55" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="110dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="102dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView115"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/textView111"
+        app:srcCompat="@drawable/ts55" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

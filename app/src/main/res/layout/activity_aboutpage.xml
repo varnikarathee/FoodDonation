@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Aboutpage">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="RESTHEAL"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <TextView
+        android:layout_width="305dp"
+        android:layout_height="469dp"
+        android:text="RestHeal is an incredible Android application that tackles hunger by connecting generous restaurants and hotels with compassionate NGOs. Together, we're on a mission to eliminate food waste and ensure that no one goes hungry.
+
+\n\nWith RestHeal, whenever these establishments have surplus food, they can effortlessly reach out to NGOs through our intuitive platform. The food is then lovingly distributed to those in need, making a real difference in the lives of the less fortunate.
+
+\n\nOur app provides a seamless and efficient way for NGOs and establishments to coordinate, ensuring that excess food never goes to waste and instead reaches the people who need it most. Join us in the fight against hunger and be a part of this inspiring movement!"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintVertical_bias="0.36" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

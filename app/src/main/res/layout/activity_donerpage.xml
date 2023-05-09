@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".donerpage">
+    <!--    android:background="@drawable/ss2"-->
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="365dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="20dp"
+        android:text="SAVE FOOD AND DONATE FOOD "
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="300dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="10dp"
+        android:text="FILL THE DETAILS AND WAIT FOR AGENT"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="295dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="enter your name"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="295dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="mobile number(+91)"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="295dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="date of food making(dd.mm.yy)"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="295dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="useable before (dd/mm/yy)"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="295dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="which type of food (food name)"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="295dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="specific the food "
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="295dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="any other information about food"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName9"
+        android:layout_width="295dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="address pincode"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName10"
+        android:layout_width="295dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="full address / google map link"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName9" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="295dp"
+        android:layout_height="72dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="any suggestion "
+        android:inputType="textMultiLine"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName10" />
+
+    <Button
+        android:id="@+id/shyam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="DONATE"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
